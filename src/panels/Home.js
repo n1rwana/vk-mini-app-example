@@ -81,12 +81,12 @@ const Home = ({
    */
   const panels = [
     {
-      id: "home",
-      menuTriggers: ["home"],
+      id: "home-panel",
+      menuTriggers: ["home-panel"],
       name: "Главная",
       menuIcon: <Icon28GridLayoutOutline />,
       showInMenu: true,
-      component: <HomePanel id="home" {...defaultProps} fetchedUser={fetchedUser} />,
+      component: <HomePanel id="home-panel" {...defaultProps} fetchedUser={fetchedUser} />,
       panelHeader: <PanelHeader>Главная</PanelHeader>
     },
     {
