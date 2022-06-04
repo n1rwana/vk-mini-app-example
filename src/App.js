@@ -23,7 +23,7 @@ import Home from './panels/Home';
 
 const App = () => {
   const [activePanel, setActivePanel] = useState('home');
-  const [activeStory, setActiveStory] = useState('home-panel');
+  const [activeStory, setActiveStory] = useState('home');
   const [fetchedUser, setUser] = useState(null);
   const [popout, setPopout] = useState(null);
   const [platform, setPlatform] = useState("vkcom");
@@ -35,7 +35,7 @@ const App = () => {
   const lights = ['bright_light', 'vkcom_light'];
   const [appearance, setAppearance] = useState('light');
   const [isLoading, setLoading] = useState(false);
-  const [history, setHistory] = useState(['home-panel']);
+  const [history, setHistory] = useState(['home']);
 
   function useScheme(scheme, needChange = false) {
     let isLight = lights.includes(scheme);
