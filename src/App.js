@@ -95,6 +95,7 @@ const App = () => {
         <AppRoot>
           <View activePanel={activePanel} history={history} onSwipeBack={goBack} popout={popout}>
             <Home
+              id="home"
               activeStory={activeStory}
               appearance={appearance}
               fetchedUser={fetchedUser}

@@ -105,8 +105,8 @@ const Home = ({
       menuIcon: showPopoutsIcon ? <Icon28SettingsOutline /> : null,
       showInMenu: true,
       component: <Popouts id="popouts" {...defaultProps} showPopoutsIcon={showPopoutsIcon} setShowPopoutsIcon={setShowPopoutsIcon} />,
-      panelHeader: <PanelHeader left={<PanelHeaderBack onClick={() => window.history.back()} />}>{isLoading ? "Загрузка..." : "Test"}</PanelHeader>
-    }
+      panelHeader: <PanelHeader left={<PanelHeaderBack onClick={() => window.history.back()} />}>{isLoading ? "Загрузка..." : "Popouts"}</PanelHeader>
+    },
   ];
 
   /**
